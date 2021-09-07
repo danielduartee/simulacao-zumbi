@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../assets/gameover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Fredoka One', cursive;
+}
+
+h1, p {
+    width: 100%;
+    text-align: center;
+  
+
+}
+h2{
+    color: rgb(148, 59, 27);
+    text-align: center;
+    box-sizing: border-box;
+}
+.armas{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+}   
+.botao-choice{
+  
+ text-align: center;
+  font-size: 18px;
+  width: 30%;
+  background-color: #e4ee54cb;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  padding: 10px;
+    
+}
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+}

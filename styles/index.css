@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../assets/cena1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+}
+p{
+   
+ border-radius: 10px;
+ opacity: 1;
+ transition: 400ms;
+  
+}
+#personagem{
+    max-width: 15%;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    align-content: space-around;
+
+}
+.avatares{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    margin-top: 50px ;
+    }
+ol{
+   
+   color: #ec7fe3;
+   text-align: center;  
+   margin-top: 50px;
+   margin: 0 3.5%;
+   padding: 20px 30px;
+   box-sizing: border-box;
+   border: 2px solid #ec7fe3;
+   border-radius: 10px;
+   background-color:rgb(202, 191, 193);
+   transition:  3s; 
+   
+}
+
+ol:hover {
+    transform: scale(1.2);
+    transition: 3s;
+    background-color: lightseagreen;
+    transition: 400ms;
+    cursor: pointer;
+  
+}
+@media screen and (max-width: 480px) {
+   body {
+        width: auto;
+        background-repeat: repeat;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+}

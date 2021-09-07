@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../assets/end.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: 'Fredoka One', cursive;
+}
+
+h1,h2,p{
+    width: 100%;
+    text-align: center;
+    
+}
+.gis{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+}
